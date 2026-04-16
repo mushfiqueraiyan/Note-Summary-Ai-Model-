@@ -17,7 +17,7 @@ def note_generator(images):
 
     prompt ="""
     Summarize the picture in note format at max 150 words, 
-    and also use markup language where it needed and convert it to bangla language 
+    and also use markup language where it needed 
     """
     
     response = client.models.generate_content(
